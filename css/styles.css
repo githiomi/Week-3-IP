@@ -58,3 +58,8 @@
 	margin-left: 20px;
 	padding: 50px;
 }
+
+.footer{
+	background: url("assets/backgrounds/c_image.jpg");
+	height: 650px;
+}
