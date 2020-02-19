@@ -1,0 +1,30 @@
+*{
+	margin: 1px;
+	padding: 5px;
+}
+#header{
+	background: url("assets/backgrounds/header.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 700px;
+}
+.headerImg{
+	margin-top: 150px;
+	margin-left: 46%;
+}
+#header h1{
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+}
+#header h6{
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+}
+.mouseClick{
+	cursor: pointer;
+	margin-left: 50%;
+	padding-top: 100px;
+}
