@@ -22,9 +22,9 @@
 	text-align: center;
 	color: white;
 	font-weight: bolder;
+	margin-bottom: 150px;
 }
 .mouseClick{
 	cursor: pointer;
 	margin-left: 50%;
-	padding-top: 100px;
 }
