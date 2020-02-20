@@ -52,6 +52,29 @@
 	margin-bottom: 50px;
 }
 
+.col-md-3{
+	cursor: pointer;
+}
+
+.txt1{
+	display: none;
+	color: red;
+}
+
+.txt2{
+	display: none;
+	color: green;
+}
+
+.txt3{
+	display: none;
+	color: blue;
+}
+
+.portfolio{
+	margin-left: 50px;
+}
+
 .row h1{
 	text-align: center;
 }
