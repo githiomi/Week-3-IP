@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	function submit(){
+	$("#submit").click(function(){
 
 		var name = $("#contactName").val();
 		var email = $("#contactEmail").val();
@@ -12,5 +12,12 @@ $(document).ready(function(){
 
 		$("#output").show();
 
+});
 
-};
+	function overlay(){
+
+		
+	}
+
+
+});
