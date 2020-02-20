@@ -35,6 +35,7 @@
 }
 
 #aboutUs{
+	padding: 30px;
 	margin: 20px;
 	text-align: center;
 }
@@ -50,6 +51,13 @@
 
 .whatwedo{
 	margin-bottom: 50px;
+	margin-left: 55px;
+}
+
+.whatwedo .row .col-md-3{
+	padding-left: 30px;
+	padding-top: 10px; 
+	box-shadow: 2px 2px 2px black;
 }
 
 .col-md-3{
@@ -78,6 +86,8 @@
 .portfolio .row{
 	margin: 500px;
 }
+
+.potfolio .row .col-md-2
 
 .row h1{
 	text-align: center;

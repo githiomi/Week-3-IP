@@ -16,20 +16,20 @@ $(document).ready(function(){
 	});
 
 	$("#shift1").click(function(){
-		$(".img1").toggle();
-		$(".txt1").toggle();
+		$(".img1").slideToggle(1500);
+		$(".txt1").slideToggle(1500);
 	});
 
 	$("#shift2").click(function(){
-		$(".img2").toggle();
-		$(".txt2").toggle();
+		$(".img2").slideToggle(1500);
+		$(".txt2").slideToggle(1500);
 	});
 
 	$("#shift3").click(function(){
-		$(".img3").toggle();
-		$(".txt3").toggle();
+		$(".img3").slideToggle(1500);
+		$(".txt3").slideToggle(1500);
 	});
 
-	
+
 
 });
