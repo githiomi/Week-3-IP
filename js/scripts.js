@@ -13,7 +13,7 @@ $(document).ready(function(){
 		$("#output").show();
 		alert("Thank you " + name + " for your feedback. We will be in touch via " +email);
 
-});
+	});
 
 	$("#shift1").click(function(){
 		$(".img1").toggle();
@@ -29,4 +29,7 @@ $(document).ready(function(){
 		$(".img3").toggle();
 		$(".txt3").toggle();
 	});
+
+	
+
 });

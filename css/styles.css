@@ -34,7 +34,7 @@
 	margin-left: 50%;
 }
 
-.aboutUs{
+#aboutUs{
 	margin: 20px;
 	text-align: center;
 }
@@ -75,6 +75,10 @@
 	margin-left: 50px;
 }
 
+.portfolio .row{
+	margin: 500px;
+}
+
 .row h1{
 	text-align: center;
 }
@@ -84,16 +88,22 @@
 	position: center;
 	margin-right: 90px;
 }
-
+/*
 .col-md-2{
 	margin: 5px 30px 5px 30px;
+}
+
+.col-md-2 .box img{
+	box-shadow: 2px 2px 2px 2px red;
+	padding-left: 100px;
 }
 
 .col-md-2 img{
 	position: center;
 	margin-left: 20px;
-	padding: 50px;
-}
+	box-shadow: 2px 2px 2px 2px red;
+	float: left;
+}*/
 
 .footer{
 	background: url("assets/backgrounds/c_image.jpg");
