@@ -121,10 +121,11 @@ input::placeholder{
     }
 
 #output{
+	text-align: center;
 	display: none;
 	background-color: black;
 	color: white;
-	padding: 10px;
+	padding: 5px;
 	margin: 0px 50px 0px 50px;
 }
 

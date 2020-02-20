@@ -11,12 +11,13 @@ $(document).ready(function(){
 		$(".textArea").text(info);
 
 		$("#output").show();
+		alert("Thank you " + name + " for your feedback. We will be in touch via " +email);
 
 });
 
 	function overlay(){
 
-		
+		$("")
 	}
 
 
