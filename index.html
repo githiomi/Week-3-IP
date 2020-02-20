@@ -4,6 +4,10 @@
 	<link rel="icon" type="image/png" href="css/assets/logo/logo.jpeg"/>
 	<link href="css/css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
+    <script src="js/scripts.js"></script> 
+
 	<title>DELANI STUDIO</title>
 
 	<div id="header">
@@ -35,7 +39,8 @@
 
 			</div>
 		<div class="container">
-			
+		
+		<div class="whatwedo">
 			    <h1>WHAT WE DO</h1> <br>
 
 			<div class="row">
@@ -51,9 +56,12 @@
 				<div class="col-md-3">
 					<img src="css/assets/services_icons/product_icon.png">
 				</div>
+		</div>
 
 			</div>
 
+		<div class="portfoilio">
+			
 			    <h1>PORTFOLIO</h1> <br>
 
 			<div class="row">
@@ -95,14 +103,45 @@
 				</div>
 
 			</div>
+		</div>
+
 
 		</div>	
 	</div>
 
 	<div class="footer">
-						
+		<h1>CONTACT US</h1>	
+		<div id="contactForm">
+			<input placeholder="Name..." type="text" id="contactName"/>
+			<input placeholder="Email..." type="text" id="contactEmail"/>
+			<input placeholder="Type your message here..." type="text" id="textArea">
+				<br>
+			<button class="submitBtn" onclick="submit();">SUMBIT</button>
+		
+		</div>
+
+		<div id="output">
+				<p>
+					You, <span class="contactName"></span> user of email <span class="contactEmail"></span>
+					would wish to tell us that: <span class="textArea">.
+				</p>
+		</div>
+	
 	</div>
 
+	<div class="socials">
+		<a href="https://www.twitter.com"><img src="css/assets/social_icons/twitter.png"></a>
+		<a href="https://www.dribble.com"><img src="css/assets/social_icons/dribble.png"></a>
+		<a href="https://www.facebook.com"><img src="css/assets/social_icons/facebook.png"></a>
+		<a href="https://www.googleplus.com"><img src="css/assets/social_icons/g_plus.png"></a>
+		<a href="https://www.skype.com"><img src="css/assets/social_icons/skype.png"></a>
+		<a href="https://www.stumbleupon.com"><img src="css/assets/social_icons/stumble_upon.png"></a>
+		<a href="https://www.behance.com"><img src="css/assets/social_icons/behance.png"></a>
+		<a href="https://www.pinterest.com"><img src="css/assets/social_icons/pinterest.png"></a>
+		<a href="https://www.flickr.com"><img src="css/assets/social_icons/flickr.png"></a>
+
+		<p>DELANI STUDIO <br> 2019 </p>
+	</div>
 
 </body>
 </html>
