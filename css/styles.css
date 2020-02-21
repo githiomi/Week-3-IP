@@ -1,8 +1,3 @@
-*{
-	margin: 0.1px;
-	padding: 0.1px;
-}
-
 #header{
 	background: url("assets/backgrounds/header.jpg");
 	background-size: contain;
@@ -11,7 +6,7 @@
 	height: 700px;
 }
 
-.headerImg{
+.headerImg img{
 	margin-top: 150px;
 	margin-left: 46%;
 }
@@ -74,16 +69,20 @@
 	color: blue;
 }
 
-.whatwedo .col-md-3 p{
+.whatwedo .col-md-4{
+	padding: 20px;
+	width: 100%;
+}
+
+.whatwedo .col-md-4 p{
 	padding: 10px;
 	margin: 10px;
 }
 
-.whatwedo .col-md-3{
+.whatwedo .col-md-4{
 	padding: 10px;
-	box-shadow: 2px 2px 2px black;
+	box-shadow: 3px 3px 3px black;
 	text-align: center;
-	margin-right: 90px;
 	cursor: pointer;
 }
 
@@ -92,45 +91,32 @@
 	padding: 10px 0px 10px 0px;
 }
 
-.portfolio .col-md-3 .box{
-	margin: 0px;
-	padding: 0px;
+.box img{
+	width: 100%;
+	float: right;
+	background-color: black;
 }
 
 .portfolio .col-md-3 img{
+
 	width: 100%;
-	height: 300px;
-	margin: 3px;
+	height: auto;
 	padding: 5px;
-}
-
-
-/*
-.col-md-2{
-	margin: 5px 30px 5px 30px;
-}
-
-.col-md-2 .box img{
+	margin: 3px;
 	box-shadow: 2px 2px 2px 2px red;
-	padding-left: 100px;
 }
-
-.col-md-2 img{
-	position: center;
-	margin-left: 20px;
-	box-shadow: 2px 2px 2px 2px red;
-	float: left;
-}*/
 
 .footer{
 	background: url("assets/backgrounds/c_image.jpg");
+	background-attachment: fixed;
 	height: 650px;
 	color: white;
 }
 
 .footer h1{
+	padding: 30px;
 	text-align: center;
-	margin-top: 70px;
+	margin-top: 30px;
 	font-weight: bold;
 }
 
@@ -149,6 +135,12 @@ input::placeholder{
 	margin-top: 50px;
 	margin-right: 200px;
 	width: 300px;
+}
+
+#textArea{
+	color: white;
+	padding-bottom: 200px;
+	width: 800px;
 }
 
 .submitBtn{
@@ -177,12 +169,6 @@ input::placeholder{
 	color: white;
 	padding: 5px;
 	margin: 0px 50px 0px 50px;
-}
-
-#textArea{
-	color: white;
-	padding-bottom: 200px;
-	width: 800px;
 }
 
 .socials {
