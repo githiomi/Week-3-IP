@@ -30,4 +30,8 @@ $(document).ready(function(){
 		$(".txt3").slideToggle(1600);
 	});
 
+	$(".col-md-3 .box img").hover(function(){
+  	  $(this).css("foreground-color", "yellow");
+    });
+
 });

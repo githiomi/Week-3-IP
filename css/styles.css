@@ -29,6 +29,10 @@
 	margin-left: 50%;
 }
 
+#mouse{
+	animation: bounce 2s infinite;
+}
+
 #aboutUs{
 	padding: 30px;
 	margin: 20px;
@@ -98,11 +102,10 @@
 }
 
 .portfolio .col-md-3 img{
-
 	width: 100%;
 	height: auto;
 	padding: 5px;
-	margin: 3px;
+	margin: 5px 5px 10px 5px;
 	box-shadow: 2px 2px 2px 2px red;
 }
 
