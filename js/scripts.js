@@ -13,7 +13,9 @@ $(document).ready(function(){
 		$("#output").show();
 		alert("Thank you " + name + " for your feedback. We will be in touch via " +email);
 	
+		event.preventDefault();
 	});
+});
 
 	$("#shift1").click(function(){
 		$(".img1").slideToggle(1600);
@@ -29,9 +31,3 @@ $(document).ready(function(){
 		$(".img3").slideToggle(1600);
 		$(".txt3").slideToggle(1600);
 	});
-
-	$(".col-md-3 .box img").hover(function(){
-  	  $(this).css("foreground-color", "yellow");
-    });
-
-});

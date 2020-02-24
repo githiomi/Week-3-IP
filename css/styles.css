@@ -116,9 +116,9 @@
 
 .footer{
 	background: url("assets/backgrounds/c_image.jpg");
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 	height: 650px;
-	color: white;
+	color: black;
 }
 
 .footer h1{
@@ -133,7 +133,7 @@
 }
 
 input::placeholder{
-	color: white;
+	color: black;
 }
 
 .footer input{
