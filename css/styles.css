@@ -44,6 +44,8 @@
 	background-position: center;
 	text-align: center;
 	color: white;
+	font-weight: bolder;
+	font-size: 20px;
 	width: 100%;
 	padding: 130px;
 }
@@ -129,7 +131,7 @@
 }
 
 input::placeholder{
-	color: black;
+	color: white;
 }
 
 .footer input{
