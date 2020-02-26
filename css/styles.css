@@ -94,17 +94,6 @@
 	text-align: center;
 }
 
-/*.portfolio h1{
-	text-align: center;
-	padding: 10px 0px 10px 0px;
-}
-
-.box img{
-	width: 100%;
-	float: right;
-	background-color: black;
-}*/
-
 .image-frame img{
 	background-color: black;
 	width: 100%;
@@ -115,8 +104,15 @@
 }*/
 
 .footer{
-	background: url("assets/backgrounds/c_image.jpg");
-	/*background-attachment: fixed;*/
+	background-image: url("assets/backgrounds/c_image.jpg");
+	background-attachment: fixed;
+	height: 650px;
+	color: black;
+}
+
+#footer{
+	background-image: url("assets/backgrounds/c_image.jpg");
+	background-attachment: fixed;
 	height: 650px;
 	color: black;
 }
