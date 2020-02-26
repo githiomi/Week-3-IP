@@ -13,25 +13,21 @@ $(document).ready(function(){
 		$("#output").show();
 		alert("Thank you " + name + " for your feedback. We will be in touch via " +email);
 	
+		event.preventDefault();
 	});
+});
 
 	$("#shift1").click(function(){
-		$(".img1").slideToggle(1600);
-		$(".txt1").slideToggle(1600);
+		$(".img1").slideToggle(1000);
+		$(".txt1").slideToggle(1000);
 	});
 
 	$("#shift2").click(function(){
-		$(".img2").slideToggle(1600);
-		$(".txt2").slideToggle(1600);
+		$(".img2").slideToggle(1000);
+		$(".txt2").slideToggle(1000);
 	});
 
 	$("#shift3").click(function(){
-		$(".img3").slideToggle(1600);
-		$(".txt3").slideToggle(1600);
+		$(".img3").slideToggle(1000);
+		$(".txt3").slideToggle(1000);
 	});
-
-	$(".col-md-3 .box img").hover(function(){
-  	  $(this).css("foreground-color", "yellow");
-    });
-
-});
