@@ -1,4 +1,4 @@
-# Week 2 Independent Project
+# Week 3 Independent Project
 
 #### A website that implements all the week's knowledge of the following areas; HTML, CSS and JQuery. It also incrporates my creative ability by addition of a few animations and transitions
 
@@ -27,7 +27,8 @@ It is made completly using sublime Text 3 where all the following files were cre
 
 ## Support and contact details
 contact Daniel at:
-1. Email: danielgithiomi@gmail.com 0r
+
+* Email: danielgithiomi@gmail.com 0r
 
 ### License
 Click the following to acces the license page: https://github.com/githiomi/license/blob/master/LICENSE
