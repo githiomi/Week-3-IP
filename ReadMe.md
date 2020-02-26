@@ -5,7 +5,7 @@
 ##### Created By Daniel Githiomi
 
 ## Description
-Most people do know when their birthdays are, but some might not know what day of the week they were born. Luckily for us, there are ways to calculate the day of the week from a specific date. The following is one of the many methods that exist for that.
+Delani Studio is an enticing website that coarses the user to become part of the Delani Studio Community through its beautiful design that appeals to the eye of the user. Delani studio aims at showing the user the advantages and details of Delani Studio.
 
 ## Setup/Installation Requirements
 * i5 Core
